@@ -3,13 +3,13 @@
 A PyTorch implementation of SpotGAN: A Reverse-Transformer GAN Generates Scaffold-Constrained Molecules with Property Optimization.
 The paper has been accepted by ECML-PKDD 2023. 
 
-# Installation
+## Installation
 ```
 $ conda env create -n spotgan_env -f env.yml
 $ source activate spotgan_env
 ```
 
-# File Description
+## File Description
 
   - **datasets:** contains the original datasets and preprocessed datasets. Each dataset contains three columns, separated by ";" into scaffolds, decorations, and SMILES strings.
 	  - QM9_10k_LEN_3.csv
@@ -18,7 +18,7 @@ $ source activate spotgan_env
 	  - **save_models:** all training results, pre-trained and trained filler and discriminator models are saved in this folder.
 	  - **test:** all test results are saved in this folder.
 
-# Experimental Reproduction
+## Experimental Reproduction
 
   - SpotGAN on the QM9 dataset with drug-likeness as the optimized property:
   ``` 
@@ -69,7 +69,7 @@ $ source activate spotgan_env
   $ python main.py --filler_pretrain --dis_pretrain --adversarial_train --dis_wgan --dis_minibatch --dataset_name 'ZINC_10k' --dec_min_len 10 --filler_epochs 200 --decoration_max_len 50 --filler_optimizer 'Adam' --filler_d_model 256 --filler_max_lr 1e-4 --dis_max_lr 1e-4 --adv_epochs 50 --properties 'synthesizability'
   ```
 
-# Case Studies on Optimization of Bioactivity (BIO)
+## Case Studies on Optimization of Bioactivity (BIO)
   
   - Training process on the ZINC dataset using SpotGAN
   ```
@@ -84,7 +84,7 @@ $ source activate spotgan_env
   $ python main.py --test --scaffold_name 'E2'
   ```
   
-# Citation
+## Citation
   ```
   C. Li and Y. Yamanishi (2023). SpotGAN: A reverse-transformer GAN generates scaffold-constrained molecules with property optimization. ECML-PKDD 2023.
   ```
