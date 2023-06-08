@@ -1,7 +1,7 @@
 # SpotGAN
 
 A PyTorch implementation of SpotGAN: A Reverse-Transformer GAN Generates Scaffold-Constrained Molecules with Property Optimization.
-The paper has been accepted by ECML-PKDD 2023. 
+The paper has been accepted by ECML-PKDD 2023. ![Overview of SpotGAN](https://github.com/naruto7283/SpotGAN/blob/main/overview.jpg)
 
 ## Installation
 ```
