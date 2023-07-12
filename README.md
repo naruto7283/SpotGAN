@@ -18,7 +18,7 @@ $ source activate spotgan_env
 	  - **save_models:** all training results, pre-trained and trained filler and discriminator models are saved in this folder.
 	  - **test:** all test results are saved in this folder.
 
-## Experimental Reproduction
+## Reproduction
 
   - SpotGAN on the QM9 dataset with drug-likeness as the optimized property:
   ``` 
