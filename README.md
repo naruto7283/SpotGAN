@@ -4,8 +4,8 @@ A PyTorch implementation of SpotGAN: A Reverse-Transformer GAN Generates Scaffol
 The paper has been accepted by ECML-PKDD 2023. ![Overview of SpotGAN](https://github.com/naruto7283/SpotGAN/blob/main/overview.jpg)
 
 ## Installation
-First, download the code.
-Then,
+First, download the code.  
+Then, execute the following command:
 ```
 $ conda env create -n spotgan_env -f env.yml
 $ source activate spotgan_env
