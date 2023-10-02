@@ -95,9 +95,12 @@ Next, unzip the **DRD2_score.sav.zip** to  **DRD2_score.sav**.
   
   BibTeX format:
   ```
-  @article{,
-  title={{SpotGAN: A reverse-transformer GAN generates scaffold-constrained molecules with property optimization}},
-  author={Chen Li, Yoshihiro Yamanishi},
-  journal={EMCL-PKDD 2023},
-  year={2023}}
+  @inproceedings{li2023spotgan,
+  title={SpotGAN: A Reverse-Transformer GAN Generates Scaffold-Constrained Molecules with Property Optimization},
+  author={Li, Chen and Yamanishi, Yoshihiro},
+  booktitle={Joint European Conference on Machine Learning and Knowledge Discovery in Databases},
+  pages={323--338},
+  year={2023},
+  organization={Springer}
+}
   ```
